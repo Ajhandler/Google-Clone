@@ -1,0 +1,185 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+/******Global*****/
+ body{
+ 	font-size: small;
+ 	font-family: Arial;
+ }
+
+ .left{
+ 	float: left;
+ }
+ .right{
+ 	float: right;
+ }
+
+ ul li{
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline!important;
+}
+
+/******Buttons*****/
+button{
+	margin: 0;
+	border: 0;
+	border-radius: 3px;
+	padding: 8px 0px;
+}
+.signinbutton{
+	
+	width: 65px;
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #4387FD),
+	color-stop(1, #4286F4)
+);
+background-image: -o-linear-gradient(bottom, #4387FD 0%, #4286F4 100%);
+background-image: -moz-linear-gradient(bottom, #4387FD 0%, #4286F4 100%);
+background-image: -webkit-linear-gradient(bottom, #4387FD 0%, #4286F4 100%);
+background-image: -ms-linear-gradient(bottom, #4387FD 0%, #4286F4 100%);
+background-image: linear-gradient(to bottom, #4387FD 0%, #4286F4 100%);
+color: white;
+
+}
+
+.searchbutton{
+	color: black;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-left: 5px;
+	background: #F6F6F6;
+
+	border: 1px solid #D8D8D8;
+}
+/******Top Options*****/
+.options{
+	height: 30px;
+	margin-bottom: 10%;
+}
+
+.options img{
+	height: 25px;
+	width: 25px;
+	vertical-align: middle;
+}
+
+.options ul{
+	float: right;
+}
+.options ul li{
+	padding-top: 10px;
+	margin-right: 10px;
+}
+
+.options a{
+	color: black;
+	text-decoration: none;
+}
+
+/******Google logo*****/
+
+.logo{
+	text-align: center;
+}
+/******Inputs*****/
+fieldset{
+	text-align: center;
+}
+.text{
+	margin-top: 10px;
+	width: 50%;
+	height: 25px;
+	background: url('img/microphone.png') no-repeat;
+	background-size: contain;
+	background-position: right center
+}
+
+input{
+	outline: none;
+}
+input:active,
+input:focus{
+	border: 1px solid #4285F4;
+}
+.searchbuttons{
+	margin-top: 10px;
+}
+
+/******footer*****/
+footer{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	border-top: 1px solid #E4E4E4;
+	background-color: #E9E9E9;
+}
+
+footer a{
+	color: #6E6666;
+}
+
+footer ul li{
+	padding: 15px;
+}
+
+
+
